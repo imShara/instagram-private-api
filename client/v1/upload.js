@@ -33,7 +33,7 @@ Upload.photo = function (session, streamOrPathOrBuffer, uploadId, name, isSideca
     var compresion = {
         "lib_name": "jt",
         "lib_version": "1.3.0",
-        "quality": "92"
+        "quality": "100"
     }
     var isThumbnail = !!uploadId;
     var predictedUploadId = uploadId || new Date().getTime();
